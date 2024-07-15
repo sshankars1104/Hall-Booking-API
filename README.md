@@ -25,7 +25,7 @@ Hall booking API created using Node.js and Express.
 
 ### 2. Booking a New Room
 
-- **URL**: [Booking a Room](http://localhost:3000/bookings)
+- **URL**: [Booking a Room](https://hall-booking-api-1xhn.onrender.com/bookings)
 - **Method**: POST
 - **Headers**: `Content-Type: application/json`
 - **Body**:
@@ -41,17 +41,17 @@ Hall booking API created using Node.js and Express.
 
 ### 3. List All Rooms with Booked Data
 
-- **URL**: [List All Rooms with Booked Data](http://localhost:3000/rooms)
+- **URL**: [List All Rooms with Booked Data](https://hall-booking-api-1xhn.onrender.com/rooms)
 - **Method**: GET
 
 ### 4. List All Customers with Booked Data
 
-- **URL**: [List All Customers with Booked Data](http://localhost:3000/customers)
+- **URL**: [List All Customers with Booked Data](https://hall-booking-api-1xhn.onrender.com/customers)
 - **Method**: GET
 
 ### 5. List Customer's Bookings
 
-- **URL**: [List Customer's Bookings](http://localhost:3000/customers/John%20Doe/bookings)
+- **URL**: [List Customer's Bookings](https://hall-booking-api-1xhn.onrender.com/customers/John%20Doe/bookings)
 - **Method**: GET
 
 ### Getting Started
