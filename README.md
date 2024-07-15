@@ -2,15 +2,15 @@
 
 Hall booking API created using Node.js and Express.
 
-## Postman Documentation
+## Render.com
 
-For detailed API documentation, refer to the Postman docs: [Postman Documentation](https://documenter.getpostman.com/view/27867831/2s93zE1ysM)
+    `https://hall-booking-api-1xhn.onrender.com`
 
 ## API Endpoints
 
 ### 1. Creating a New Room
 
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
+- **URL**: [Create Room](https://hall-booking-api-1xhn.onrender.com/rooms)
 - **Method**: POST
 - **Headers**: `Content-Type: application/json`
 - **Body**:
@@ -21,43 +21,45 @@ For detailed API documentation, refer to the Postman docs: [Postman Documentatio
     "amenities": ["Projector", "Whiteboard", "WiFi"],
     "pricePerHour": 50
   }
+  ```
+
 ### 2. Booking a New Room
 
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
+- **URL**: [Booking a Room](http://localhost:3000/bookings)
 - **Method**: POST
 - **Headers**: `Content-Type: application/json`
 - **Body**:
   ```json
   {
-  "customerName": "John Doe",
-  "date": "2024-07-20",
-  "startTime": "10:00",
-  "endTime": "12:00",
-  "roomId": 1
+    "customerName": "John Doe",
+    "date": "2024-07-20",
+    "startTime": "10:00",
+    "endTime": "12:00",
+    "roomId": 1
   }
+  ```
 
-### 3. View Available Rooms
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
+### 3. List All Rooms with Booked Data
+
+- **URL**: [List All Rooms with Booked Data](http://localhost:3000/rooms)
 - **Method**: GET
 
-### 4. View Booked Rooms
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
+### 4. List All Customers with Booked Data
+
+- **URL**: [List All Customers with Booked Data](http://localhost:3000/customers)
 - **Method**: GET
 
-### 5. Customers with Booked Data
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
-- **Method**: GET
+### 5. List Customer's Bookings
 
-### 6. Number of Times a User Has Booked
-- **URL**: `https://hall-booking-yjoe.onrender.com/rooms/create`
+- **URL**: [List Customer's Bookings](http://localhost:3000/customers/John%20Doe/bookings)
 - **Method**: GET
-
 
 ### Getting Started
 
 ## Prerequisites
 
 # Node.js and npm installed on your machine.
+
 # Postman (optional, for testing the API endpoints).
 
-The server will start on http://localhost:3000.
+The server will start on [Local](http://localhost:3000)
